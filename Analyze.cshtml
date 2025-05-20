@@ -1,0 +1,13 @@
+
+@{
+    ViewData["Title"] = "Analyze";
+}
+
+<h2>Case Sensitivity Check</h2>
+<form asp-action="Analyze" method="post">
+    <label>Case Number: <input name="CaseNumber" /></label><br />
+    <label>Informant Info: <input name="Informant" /></label><br />
+    <label>Badge ID: <input name="BadgeID" /></label><br />
+    <label>Address: <input name="Address" /></label><br />
+    <button type="submit">Check Sensitivity</button>
+</form>
